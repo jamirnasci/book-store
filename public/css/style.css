@@ -1,0 +1,175 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@100&display=swap');
+
+:root{
+    --grayDark : rgb(40, 40, 40);   
+}
+
+html, body{
+    height: 100%;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family:'Lato', sans-serif;
+}
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-color: gray;
+    text-align: center;
+}
+#side-menu-btn{
+    font-size: 20px;
+    padding: 10px;
+    margin: 5px;
+    background-color: royalblue;
+    border:solid 1px white;
+    border-radius: 5px;
+}
+#side-menu-btn > div{
+    width: 25px;
+    background-color: white;
+    border-radius: 20px;
+    height: 3px;
+    margin: 3px;
+}
+header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    height: 10%;
+    background: linear-gradient(to left, var(--grayDark), dimgray);
+    color: white;
+}
+h1{
+    margin: 5px;
+}
+aside{
+    width: 40%;
+    background-color: royalblue;
+    color: white;
+    height: 100%;
+    position: fixed;
+    display: none;
+}
+.side-menu-head{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+#back-button{
+    border: none;
+    background-color: dodgerblue;
+    padding: 10px;
+    font-size: 22pt; 
+    margin: 5px;
+}
+.side-menu-title{
+    font-size: 32px;
+    font-weight: bold;
+    margin: 10px;
+}
+aside > ul {
+    color: white;
+}
+.side-option-btn{
+    display: block;
+    width: 100%;
+    height: 100%;
+    padding: 10px;
+    font-weight: bold;
+    text-align: start;
+    font-size: 2vw;
+    border: none;
+    border-top: solid 1px lightgray;
+    background-color: rgba(0,0,0,0);
+}
+.side-option-btn:hover{
+    background-color: darkslateblue;
+    color: white;
+}
+#category-title{
+    color: white;
+    text-shadow: 0px 0px 2px royalblue;
+    font-weight: bold;
+}
+main{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.book-card{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    background-color: var(--grayDark);
+    margin: 20px;
+    padding: 10px;
+    border-radius: 10px;
+    color: cyan;
+    width: 300px;
+    text-align: center;
+    height: 70vh;
+}
+.book-card > img {
+    width: 80%;
+    height: 60%;
+    border-radius: 10px;
+}
+.book-card > *{
+    margin: 5px;
+}
+.buy-btn{
+    width: 60%;
+    background-color: seagreen;
+    color: white;
+    border-radius: 30px;
+    border: none;
+    font:bold 22px Arial;
+    cursor: pointer;
+    padding: 10px;
+}
+.buy-btn:hover{
+    background-color: var(--grayDark);
+    color: rgb(0,255,0);
+    box-shadow: 0px 0px 5px cyan;
+    border: solid 1px white;
+    
+}
+.book-title{
+    font-size: 15pt;
+}
+
+footer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--grayDark);
+    color: aqua;
+    font-weight: bold;
+    padding: 5px;
+}
+footer > img{
+    border-radius: 50%;
+    width: 30px;
+    margin: 5px;
+    background-color: white;
+}
+
+@media (max-width:768px){
+    .book-card{
+        height: 85vh;
+    }
+    .side-option-btn{
+        font-size: 5vw;
+    }
+    aside{
+        width:50%;
+    }
+}
