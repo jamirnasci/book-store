@@ -3,7 +3,7 @@ const app = express()
 const fs = require('fs/promises')
 
 app.use(express.static("public"))
-const port = 3333
+const port = process.env.PORT
 
 async function readJson(){
     const fileString = await fs.readFile("./data.json", {encoding:'utf8'})
