@@ -1,0 +1,103 @@
+{
+    "software":[
+        {
+            "author":"Mark Luiz",
+            "title":"Learnin Python",
+            "price":"$ 88.68",
+            "imgurl":"https://m.media-amazon.com/images/I/614DWyHLwWS.jpg"
+        },
+        {
+            "author":"Scott Meyers",
+            "title":"C++ Moderno e eficaz",
+            "price":"$ 78.50",
+            "imgurl":"https://a-static.mlcdn.com.br/800x560/livro-c-moderno-e-eficaz/biruta/736368/82b3c5f9a12a68012f645d3e9f6c4678.jpg"
+        },
+        {
+            "author":"Hebert Schildt",
+            "title":"Java: Twelfth Edition",
+            "price":"$ 138.00",
+            "imgurl":"https://m.media-amazon.com/images/I/81HIlxUsIZL.jpg"
+        }
+    ],
+    "fantasia":[
+        {
+            "author":"William Bennet",
+            "title":"O livro das virtudes",
+            "price":"$ 45.00",
+            "imgurl":"https://m.media-amazon.com/images/I/61MQykLj8hS.jpg"
+        },
+        {
+            "author":"Mario Quitana",
+            "title":"O batalhão das letras",
+            "price":"$ 22.45",
+            "imgurl":"https://m.media-amazon.com/images/I/910qi8luhnL.jpg"
+        },
+        {
+            "author":"Jorge Amado",
+            "title":"O gato malhado e a andorinha",
+            "price":"$ 47.00",
+            "imgurl":"https://m.media-amazon.com/images/I/81k3AprBEAS.jpg"
+        }
+    ],
+    "ficcao-cientifica":[
+        {
+            "author":"Andy Weir",
+            "title":"Devoradores de estrelas",
+            "price":"$ 180.50",
+            "imgurl":"https://m.media-amazon.com/images/I/912LLkkhCaS.jpg"
+        },
+                {
+            "author":"H.G Wells",
+            "title":"A máquina do tempo",
+            "price":"$ 58.76",
+            "imgurl":"https://m.media-amazon.com/images/I/71cL9wegDQL.jpg"
+        },
+        {
+            "author":"H.G wells",
+            "title":"O homem invisível",
+            "price":"$ 99.00",
+            "imgurl":"https://m.media-amazon.com/images/I/61jkwqfme4L.jpg"
+        }
+    ],
+    "auto-ajuda":[
+        {
+            "author":"Brené Brown",
+            "title":"A coragem de ser imperfeito",
+            "price":"$ 33.70",
+            "imgurl":"https://m.media-amazon.com/images/I/61KQA+SJwIL.jpg"
+        },
+        {
+            "author":"Haemin Sunim",
+            "title":"As coisas que você só vê quando desacelera",
+            "price":"$ 145.33",
+            "imgurl":"https://m.media-amazon.com/images/I/61OEg3V-FTL.jpg"
+        },
+        {
+            "author":"Louise L. Hay ",
+            "title":"Você pode curar sua vida",
+            "price":"$ 84.77",
+            "imgurl":"https://m.media-amazon.com/images/I/A13w9vvMYoL.jpg"
+        }
+    ],
+    "suspense":[
+        {
+            "author":"Peter Swanson",
+            "title":"8 Assasinatos perfeitos",
+            "price":"$ 105.77",
+            "imgurl":"https://m.media-amazon.com/images/I/91dd57va-nL.jpg"
+        },
+        {
+            "author":"Alex Michaelides",
+            "title":"A paciente silenciosa",
+            "price":"$ 87.90",
+            "imgurl":"https://m.media-amazon.com/images/I/91R8S52UP6L.jpg"
+        },
+        {
+            "author":"Robert Bryndza",
+            "title":"O canibal de Nine Elms",
+            "price":"$120.34",
+            "imgurl":"https://m.media-amazon.com/images/I/81O4rn3G+XS.jpg"
+        }
+    ]
+    
+}
